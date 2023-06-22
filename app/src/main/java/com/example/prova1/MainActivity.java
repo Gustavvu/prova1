@@ -100,6 +100,11 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(MainActivity.this, recibo, Toast.LENGTH_SHORT).show();
                 tvrecibo.setText(recibo);
                 //startActivity(new Intent(view.getContext(), Tela2.class));
+                Intent intent = new Intent(MainActivity.this, Tela2.class);
+                intent.putExtra("Pedido", recibo);
+                startActivity(intent);
+                //finish();
+
             }
         });
         checkBoxDolly.setOnClickListener(new View.OnClickListener() {
