@@ -47,7 +47,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
-        android:text="Voltar"
+        android:text="Editar"
         android:textColor="#3F51B5"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

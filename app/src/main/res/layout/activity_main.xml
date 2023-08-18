@@ -204,7 +204,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Para visualizar o pedido, clique no botão a direita e o pedido aparecerá aqui."
+        android:text="Para visualizar o pedido, clique no botão a direita."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"
         app:layout_constraintStart_toStartOf="parent"
